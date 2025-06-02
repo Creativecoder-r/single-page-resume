@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #257eff;
+      --secondary-color: #0a0a0a;
+      --accent-color: #007f5f;
+      --bg-color: #fdfdfd;
+      --font-color: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--font-color);
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border: 2px solid #000;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--secondary-color);
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--accent-color);
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 30px;
+      color: var(--accent-color);
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 4px;
+    }
+
+    p, ul, a {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .contact {
+      margin: 15px 0;
+      font-size: 15px;
+    }
+
+    .highlight {
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2, h3 {
+        font-size: 18px;
+      }
+
+      p, ul, a {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Your Name</h1>
+      <h2>Frontend Developer</h2>
+      <div class="contact">
+        123 Your Street, Your City, ST 12345<br />
+        📞 (123) 456-7890<br />
+        📧 <a href="mailto:your.email@example.com">your.email@example.com</a>
+      </div>
+    </header>
+
+    <div class="section">
+      <h3>Skills</h3>
+      <p>
+        HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, Accessibility (WCAG), Figma to Code, Git & GitHub, Technical Writing, Presentations
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Education</h3>
+      <p>
+        <span class="highlight">XYZ University</span>, Your City – B.Sc. Computer Science<br />
+        <em>Aug 2021 – May 2024</em><br />
+        • Built a full-stack web project as a final year capstone<br />
+        • Member of Web Dev Club and Hackathon finalist
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Experience</h3>
+      <p><span class="highlight">ABC Tech, Remote – Frontend Intern</span><br />
+        <em>Jan 2024 – Apr 2024</em>
+      </p>
+      <ul>
+        <li>Built reusable UI components using React & Tailwind CSS</li>
+        <li>Translated Figma designs into responsive interfaces</li>
+        <li>Boosted performance by optimizing image assets and lazy loading</li>
+      </ul>
+      <p><strong>Skills:</strong> React, Git, API Integration, Collaboration</p>
+
+      <p><span class="highlight">Freelance Developer</span><br />
+        <em>Jun 2023 – Dec 2023</em>
+      </p>
+      <ul>
+        <li>Designed & deployed 3 client websites with modern UX principles</li>
+        <li>Maintained SEO-friendly code and mobile-first designs</li>
+        <li>Used GitHub Pages and Netlify for hosting</li>
+      </ul>
+      <p><strong>Skills:</strong> HTML, CSS, JavaScript, Hosting, Communication</p>
+    </div>
+
+    <div class="section">
+      <h3>Across the Internet</h3>
+      <p>
+        🔗 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
+        💻 <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+        🌐 <a href="https://yourportfolio.com" target="_blank">Portfolio</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

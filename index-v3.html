@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Resume - Your Name</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #f0f0f0;
+            --accent-color: #00ff99;
+            --link-color: #3399ff;
+            --section-title-color: #00e676;
+        }
+
+        body {
+            max-width: 750px;
+            margin: auto;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .resume-container {
+            background-color: #1e1e1e;
+            padding: 40px;
+            border: 3px solid #444;
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--section-title-color);
+            margin-top: 30px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #444;
+            margin: 20px 0;
+        }
+
+        b {
+            color: var(--link-color);
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        address {
+            font-style: normal;
+            margin-bottom: 15px;
+        }
+
+        @media print {
+            body {
+                background-color: white;
+                color: black;
+            }
+
+            .resume-container {
+                background: white;
+                border: none;
+                box-shadow: none;
+                padding: 0;
+            }
+
+            a {
+                color: black;
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume-container">
+        <header>
+            <h1>Your Name</h1>
+            <h2>Junior Frontend Developer</h2>
+            <address>
+                123 Your Street, Your City, ST 12345<br>
+                (123) 456-7890<br>
+                <a href="mailto:your.email@example.com">your.email@example.com</a>
+            </address>
+        </header>
+
+        <hr>
+
+        <section>
+            <h3>Skills</h3>
+            <p>
+                HTML, CSS, JavaScript, Accessibility, Figma to Code, Responsive Design, Git, Technical Writing
+            </p>
+        </section>
+
+        <section>
+            <h3>Education</h3>
+            <p>
+                <b>XYZ University, City – B.Sc. Computer Science</b><br>
+                Aug 2021 – May 2024<br>
+                • Member of Web Dev Club<br>
+                • Final Project: Responsive React Portfolio Site
+            </p>
+        </section>
+
+        <section>
+            <h3>Experience</h3>
+
+            <p><b>ABC Tech, Remote – Frontend Intern</b><br>
+            Jan 2024 – Apr 2024</p>
+            <ul>
+                <li>Built and styled reusable components using React</li>
+                <li>Translated Figma designs into pixel-perfect interfaces</li>
+                <li>Improved site performance by 25%</li>
+            </ul>
+            <p>Skills: React, CSS, GitHub, Collaboration</p>
+
+            <p><b>Freelance Developer</b><br>
+            Jun 2023 – Dec 2023</p>
+            <ul>
+                <li>Created personal portfolio and client websites</li>
+                <li>Deployed sites using Netlify and GitHub Pages</li>
+            </ul>
+            <p>Skills: SEO, Web Hosting, HTML/CSS/JS</p>
+        </section>
+
+        <section>
+            <h3>Across the Internet</h3>
+            <p>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+                <a href="https://yourportfolio.com" target="_blank">Portfolio</a>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
