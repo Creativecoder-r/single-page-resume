@@ -1,0 +1,44 @@
+function App() {
+  return (
+    <div class="resume-container">
+      <header>
+        <h1>Mahfooz Alam</h1>
+        <h3>Junior frontend Developer</h3>
+
+        <address>
+          <p>Mau Aiam<br />
+            Prayagraj (Allahabad) <br />
+            +91 8318184547 <br />
+            <a href="mailto:mahfoozalam.0m@gmail.com">mahfoozalam.0m@gmail.com</a>
+          </p>
+        </address>
+      </header>
+
+      <hr />
+
+      <section>
+        <h3>Skills</h3>
+        <p>• Frontend: HTML5, CSS3, JavaScript (ES6+), React.js (Learning) <br />
+          • Tools: Git, GitHub, VS Code <br />
+          • Office Tools: MS Word, Excel, PowerPoint <br />
+          • Design Tools: Canva, Figma <br />
+          • Soft Skills: Creativity, Communication, Teamwork, Fast Learner and Team Player
+
+        </p>
+      </section>
+
+      <section>
+        <h3>Education</h3>
+        <p>
+          <b>Bachelor of Computer Applications (BCA)</b>
+          <br />
+          Allahabad state university, Prayagraj<br />
+          2022–2025
+        </p>
+      </section>
+
+    </div>
+  )
+}
+
+export default App;
